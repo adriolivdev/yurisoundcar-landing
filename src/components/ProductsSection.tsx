@@ -71,7 +71,7 @@ export default function ProductsSection() {
         </div>
               <div className="mt-12 text-center">
           <a
-            href="https://wa.me/5548999990000"
+            href="https://wa.me/5547991343762"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary text-black font-semibold px-6 py-3 rounded-lg hover:bg-orange-500 transition"
