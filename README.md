@@ -1,54 +1,88 @@
-# React + TypeScript + Vite
+# 🚗 Yuri SoundCar - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page moderna e responsiva para a **Yuri SoundCar**, empresa especializada em acessórios automotivos, como instalação de som, câmeras de ré, insulfilm, lâmpadas automotivas e muito mais.
 
-Currently, two official plugins are available:
+Desenvolvida com **React**, **TypeScript**, **Vite** e **Tailwind CSS**. Otimizada para performance, experiência mobile e conversão via **WhatsApp**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔧 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Vercel](https://vercel.com/) (hospedagem)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 📁 Estrutura de Pastas
+
+```
+yurisoundcar-landing/
+├── public/                     # Arquivos públicos (favicon, imagens)
+├── src/
+│   ├── components/             # Componentes reutilizáveis da aplicação
+│   │   └── *.tsx               # Componentes como Navbar, HeroSection, etc
+│   ├── App.tsx                 # Componente raiz
+│   ├── main.tsx                # Entrada principal do React
+│   ├── index.css               # Estilos globais
+│   └── vite-env.d.ts           # Tipagem do Vite
+├── index.html                  # HTML principal
+├── tailwind.config.ts         # Configuração do Tailwind
+├── vite.config.ts             # Configuração do Vite
+├── tsconfig*.json             # Configurações do TypeScript
+├── .gitignore
+├── package.json
+└── README.md                  # Este arquivo
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📱 Funcionalidades
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+- ✅ Interface 100% responsiva
+- ✅ Estilo escuro com cores da marca
+- ✅ Seções: produtos, serviços, depoimentos, redes sociais e FAQ
+- ✅ Botões de contato via WhatsApp
+- ✅ Formulário de orçamento
+- ✅ Integração com feed do Instagram via Elfsight
+- ✅ Componentes reutilizáveis com TypeScript
+
+---
+
+## ▶️ Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seunome/yurisoundcar-landing.git
+
+# Acesse a pasta
+cd yurisoundcar-landing
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
+npm run dev
 ```
+
+---
+
+## 📦 Deploy
+
+Hospedado gratuitamente no [Vercel](https://vercel.com/). Para publicar, basta conectar o repositório e a Vercel cuidará do restante.
+
+---
+
+## 🤝 Contato
+
+Entre em contato com a Yuri SoundCar via:
+
+- WhatsApp: [Clique aqui](https://wa.me/5548999990000)
+- Instagram: [@yurisoundcar](https://instagram.com/yurisoundcar) *(link fictício)*
+
+---
+
+**Desenvolvido com 💻 por [Kaizen Code Digital](https://kaizencodedigital.com.br)** 🚀
