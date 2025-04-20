@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaTools, FaSun, FaWrench, FaVolumeUp } from 'react-icons/fa';
+import { FaTools, FaSun, FaWrench, FaVolumeUp } from 'react-icons/fa'
 
 /**
  * Componente de serviços oferecidos pela Yuri SoundCar com ícones representativos e imagens.
@@ -9,7 +8,7 @@ export default function Services() {
     {
       titulo: 'Instalação de Som Automotivo',
       descricao: 'Sons potentes instalados com qualidade e precisão.',
-      icone: <FaVolumeUp className="text-[#FF6600] text-4xl mb-4 mx-auto" />, // Ícone centralizado
+      icone: <FaVolumeUp className="text-[#FF6600] text-4xl mb-4 mx-auto" />,
       imagem: '/service1.png',
     },
     {
@@ -30,7 +29,7 @@ export default function Services() {
       icone: <FaTools className="text-[#FF6600] text-4xl mb-4 mx-auto" />,
       imagem: '/service4.png',
     },
-  ];
+  ]
 
   return (
     <section id="servicos" className="bg-[#1a1a1a] text-white py-20 px-6 scroll-mt-24">
@@ -41,14 +40,18 @@ export default function Services() {
           {servicos.map((servico, index) => (
             <div
               key={index}
-              className="bg-[#2b2b2b] p-4 rounded-xl shadow hover:shadow-lg transition-all text-center border border-[#ff660020] hover:scale-105"
+              className="bg-[#2b2b2b] p-5 rounded-xl shadow hover:shadow-lg transition-all text-center border border-[#ff660020] hover:scale-105"
             >
-              <img
-                src={servico.imagem}
-                alt={servico.titulo}
-                className="w-full h-32 object-cover rounded-lg mb-4"
-              />
+              <div className="w-full h-36 overflow-hidden rounded-md mb-4">
+                <img
+                  src={servico.imagem}
+                  alt={`Imagem de ${servico.titulo}`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
               {servico.icone}
+
               <h3 className="text-lg font-semibold mb-2">{servico.titulo}</h3>
               <p className="text-gray-300 text-sm leading-relaxed">{servico.descricao}</p>
             </div>
@@ -56,5 +59,5 @@ export default function Services() {
         </div>
       </div>
     </section>
-  );
+  )
 }

@@ -1,10 +1,9 @@
-import React from 'react';
 
 export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative h-[70vh] md:h-[85vh] bg-cover bg-center bg-no-repeat scroll-mt-24"
+      className="relative h-[70vh] md:h-[80vh] lg:h-[85vh] bg-cover bg-center bg-no-repeat scroll-mt-24"
       style={{
         backgroundImage: "url('/yuri-hero.png')",
         backgroundPosition: 'center top',
@@ -14,7 +13,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
 
       {/* Conteúdo centralizado */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-6 pt-20 pb-10 md:pt-32 md:pb-16 max-w-3xl mx-auto">
+      <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-6 pt-24 pb-12 md:pt-36 md:pb-20 max-w-3xl mx-auto">
         <h1 className="text-3xl md:text-5xl font-extrabold leading-tight mb-4">
           Transforme seu carro com{' '}
           <span className="text-primary">estilo e performance</span>

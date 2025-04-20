@@ -2,7 +2,7 @@ import { FaInstagram, FaWhatsapp, FaMapMarkerAlt } from 'react-icons/fa'
 
 /**
  * Footer exibe as informações da Yuri SoundCar no rodapé do site.
- * Inclui links, CNPJ e endereço com link para o Google Maps.
+ * Inclui links, CNPJ, endereço com link para o Google Maps e crédito da Kaizen Code.
  */
 export default function Footer() {
   return (
@@ -40,7 +40,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Rua José Julio Moreira-3900- Araquari/SC
+                Rua José Julio Moreira, 3900 - Araquari/SC
               </a>
             </li>
           </ul>
@@ -58,9 +58,19 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Linha de direitos autorais */}
-      <div className="mt-10 text-center text-xs text-gray-500 border-t border-gray-700 pt-4">
+      {/* Linha de direitos autorais + crédito */}
+      <div className="mt-10 text-center text-xs text-gray-400 border-t border-gray-700 pt-4">
         &copy; {new Date().getFullYear()} Yuri SoundCar. Todos os direitos reservados.
+        <br />
+        Desenvolvido por{' '}
+        <a
+          href="https://instagram.com/kaizencodedigital"
+          className="text-green-400 hover:underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Kaizen Code Digital
+        </a>
       </div>
     </footer>
   )
