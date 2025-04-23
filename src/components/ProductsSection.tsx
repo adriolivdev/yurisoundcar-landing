@@ -22,7 +22,7 @@ const produtos = [
   {
     nome: 'Lâmpada Nano-LED',
     descricao: 'Par de lâmpadas automotivas com alta luminosidade.',
-    imagem: '/5.png',
+    imagem: '/1.png',
     preco: 'R$ 120,00',
   },
 ]
