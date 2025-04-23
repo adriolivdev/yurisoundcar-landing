@@ -11,6 +11,7 @@ import SocialSection from './components/SocialSection'
 import Footer from './components/Footer'
 import BotaoWhatsapp from './components/BotaoWhatsapp'
 import FaqSection from './components/FaqSection'
+import ServiceCounter from './components/ServiceCounter'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
       <main className="pt-16 bg-dark text-white font-sans">
         <HeroSection />
+        <ServiceCounter/>
         <ServicesSection />
         <ProductsSection />
         <TestimonialsSection />
