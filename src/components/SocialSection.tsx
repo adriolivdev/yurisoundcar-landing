@@ -38,7 +38,7 @@ export default function SocialSection() {
             <FaInstagram className="text-2xl" /> @yurisoundcar
           </a>
           <a
-            href="https://wa.me/5547999999999"
+            href="https://wa.me/5547991343762"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-3 hover:text-primary transition"
