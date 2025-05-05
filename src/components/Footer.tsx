@@ -36,11 +36,11 @@ export default function Footer() {
             <li>
               <FaMapMarkerAlt className="inline mr-2 text-primary" />
               <a
-                href="https://maps.app.goo.gl/7JGoDVgZLvoNGVcE8"
+                href="https://maps.app.goo.gl/CVzXazukUXTPxBCa7"
                 target="_blank"
                 rel="noreferrer"
               >
-                Rua José Julio Moreira, 3900 - Araquari/SC
+                Av. Pref. Alberto Natalino Miquelute, 9350 - Itinga - Araquari/SC
               </a>
             </li>
           </ul>

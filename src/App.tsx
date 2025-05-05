@@ -12,6 +12,7 @@ import Footer from './components/Footer'
 import BotaoWhatsapp from './components/BotaoWhatsapp'
 import FaqSection from './components/FaqSection'
 import ServiceCounter from './components/ServiceCounter'
+import Localizacao from './components/Localizacao'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <SocialSection />
         <ContactSection />
         <FaqSection />
+        <Localizacao />
         <Footer />
       </main>
       <BotaoWhatsapp />
